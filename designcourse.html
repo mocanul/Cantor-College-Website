@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Courses | Cantor College</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+          <img id = "cantorImg" src="images/logo.png" alt="CantorCollege">
+        </a>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <menu class="navbar" id="navbar">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropdownBtn">
+              Courses <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="computingcourse.html">Computing courses</a>
+              <a href="designcourse.html">Design courses</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdownBtn">
+              Information <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="studentinfo.html">Student information</a>
+              <a href="staffinfo.html">Staff information</a>
+              <a href="learningresources.html">Learning resources</a>
+            </div>
+          </div>
+          <a href="business.html">Business</a>
+        </menu>
+      </nav>
+
+      
+      <ul class="mobileDropMenu" id="mobileDropMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><button class = "dropBtn">Courses <i class="fa fa-caret-down"></i></button></li>
+        <div class = "dropContent">
+            <a href="computingcourse.html">Computing Courses</a>
+            <a href="designcourse.html">Design Courses</a>
+        </div>
+        <li><button class="dropBtn2">Information <i class="fa fa-caret-down"></i></button></li>
+        <div class="dropContent2">
+            <a href="studentinfo.html">Student Information</a>
+            <a href="staffinfo.html">Staff Information</a>
+            <a href="learningresources.html">Learning resources</a>
+        </div>
+        <li><a href="business.html">Business</a></li>
+      </ul>
+
+    <script src="js/nav.js"></script>
+
+
+    <div class="content-courses">
+
+      <h1>Design Courses</h1>
+
+      <p>The College is an internationally connected creative community 
+        of diverse disciplines housed under one roof. We shape our students' futures,
+        preparing them to shape the world through applied knowledge and creativity.</p>
+    
+    
+      <p>The College's art and design courses don't just train you, they promote 
+        alternative ways of thinking, making and communicating; they provide you 
+        with space, tools and inspiration to develop your creative practice and 
+        a clear career path. You'll get expert teaching from active practitioners 
+        and researchers who will encourage you to adopt innovative and resourceful 
+        approaches that both perceive and create opportunities for better lives.</p>
+    
+    
+      <p>You’ll develop your creative practice whilst interacting with your peers 
+        in well-equipped studios, making and digital workshops. At the same time, 
+        you'll learn professional skills by working on applied briefs facilitated 
+        through our links with commercial clients, cultural institutions, businesses 
+        and organisations.</p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Summary</th>
+          <th>Award Name</th>
+          <th>Ucas Code</th>
+          <th>UCAS</th>
+          <th>Year</th>
+          <th>Attendance</th>
+          <th>Length</th>
+          <th>Foundation</th>
+          <th>Subject</th>
+          <th>Available</th>
+        </tr>
+      </thead>
+      <tbody id="data-output2">
+    
+      </tbody>
+    </table>
+    
+    <script src="js/designCourses.js"></script>
+
+
+    <footer>
+      <p>
+          Tel:(01321) 2340 235 <br> Fax:(01321) 2340 236 <br> Email: info@cantorcollege.ac.uk
+      </p>
+  </footer>
+
+</body>
+</html>
